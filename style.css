@@ -747,7 +747,7 @@ nav-close{
 }
 
 .about-col{
-  flex-basis: 52%;
+  flex-basis: 50%;
   text-align: left;
   display:inline;
   cursor: pointer; 
@@ -772,61 +772,75 @@ nav-close{
   font-size: 20px;
   font-weight: 0;
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
   font-family: 'pFont';
+  margin-left: 10px;
 }
 
 /*--footer--*/
 .footer{
-  width: 100%;
-  padding: 0px 0;
-  text-align: left;
-  background:  #36454F;
-  color: #fff;
-  font-family: 'pFont';
-  padding-top: 10px;
+  width:100%;
+  background:#152238;
+  display:flex;
+  padding: 50px 15%;
 }
 
-.icons ul li{
+.footer div{
+  text-align: center;
+}
+
+.col-2{
+  flex-grow: 2;
+}
+
+.footer div h3{
+  font-weight:300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.col-1 a{
   display: block;
-  list-style: none;
-  padding: 8px 20px;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.footer h4{
-  font-size: 16px;
-  font-weight: 600;
-  padding-left: 30px;
-}
-
-.footer p{
-  font-size: 15px;
-  font-weight: 400;
-  margin-top: 20px;
-  font-size:medium;
-  text-align: left;
+  text-decoration: none;
   color: #fff;
+  margin: 10px 0;
 }
 
-.icons .fa{
-  font-size: 13px;
-  margin: 0 1px;
-  cursor: pointer;
-  padding: 1px 0;
-}
-
-.fa fa-facebook:hover{
-  color: #3b5998;
-}
-
-.icons:hover{
+.col-1 a:hover{
   color: #00ff9f;
-  transition: 0.5s;
 }
 
+form input{
+  width: 300px;
+  height: 37px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
 
-.fa-heart-0{
-  color: #f5f117;
+form button{
+  background: transparent;
+  border:2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+form button:hover{
+  background: #00ff9f;
+  color: #000;
+  transition: 1s;
+}
+
+.col-3{
+  flex-grow: 1;
+}
+
+.col-3 p{
+  color: #fff;
 }
