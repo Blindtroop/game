@@ -780,7 +780,7 @@ nav-close{
 /*--footer--*/
 .footer{
   width:100%;
-  background:#0000;
+  background: #000;
   display:flex;
   padding: 50px 15%;
 }
