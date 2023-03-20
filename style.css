@@ -982,8 +982,27 @@ form button:hover{
     }
   }
 
-
 /*--products--*/
+
+.heading{
+  width: 100%;
+  height: 100px;
+  background: #000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heading h1{
+  font-size: 40px;
+  color: #fff;
+  font-family: myFont;
+}
+
+.heading p{
+  font-size: 20px;
+  color: #fff;
+  font-family: myFont;
+}
 
 .products{
   display: flex;
@@ -993,6 +1012,7 @@ form button:hover{
   align-items: center;
   margin: 0px 0;
   background-color: #000;
+  padding-bottom: 30px;
 }
 
 .content{
@@ -1076,6 +1096,10 @@ h6{
   color: #00ff9f;
 }
 
+.content.fa-shopping-cart{
+  color: #00ff9f;
+}
+
 .content.fa:hover{
   color: #00b8ff;
   transform: scale(1.2);
@@ -1095,7 +1119,7 @@ h6{
 }
 
 .btn:hover{
-  background: #00b8ff;
+  background: transparent;
   color: #fff;
   transition: .4s;
 }
@@ -1108,7 +1132,7 @@ h6{
     padding-bottom: 6px;
     box-sizing: border-box;
     border-style: none;
-    flex-basis: 30%;
+    flex-basis: 100%;
   }
   
   .content{
@@ -1175,4 +1199,17 @@ h6{
   }
 
  
+}
+
+/*--products-more--*/
+
+.products-more{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0;
+  background-color: #000;
+  padding-bottom: 30px;
 }
