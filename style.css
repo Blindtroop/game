@@ -4,6 +4,16 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
+
+/*--html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}--*/
+
 @font-face {
     font-family:myFont ;
     src: url(new.ttf);
@@ -438,6 +448,18 @@ nav-close{
       color:#AC92EC;
     }
 }
+
+@media screen and (max-width: 768px){
+  html,body{
+    overflow-x: hidden;
+  }  
+  
+  .text-box h1{
+        font-size: 50px;
+        padding-top: 0px;
+    }
+}
+
 
 /*------upcoming releases------*/
 
