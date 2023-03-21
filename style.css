@@ -1089,7 +1089,7 @@ h6{
 }
 
 .content h3{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
   color: #fff;
   font-family: 'pFont';
@@ -1181,7 +1181,7 @@ h6{
   .content{
     width: 50%;
     margin: 0;
-    padding-bottom: 6px;
+    padding-bottom: 4px;
     box-sizing: border-box;
     border-style: double;
     flex-basis: 100%;
@@ -1205,10 +1205,6 @@ h6{
     height: 100%;
   }
 
-  .content h3{
-    font-size: 20px;
-    color: #fff;
-  }
 
   .content p{
     font-size: 10px;
@@ -1217,12 +1213,12 @@ h6{
 
 
   .content h6{
-    font-size: 20px;
+    font-size: 13px;
     columns: #fff;
   }
 
   .content h3{
-    font-size: 10px;
+    font-size: 20px;
     color: #fff;
   }
 
