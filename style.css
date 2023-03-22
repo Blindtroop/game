@@ -1274,3 +1274,276 @@ h6{
   background-color: #000;
   padding-bottom: 30px;
 }
+
+/*--Contact Page--*/
+.back{
+  width: 100%;
+  height: 100%;
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-header{
+  width: 100%;
+  min-height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.671)),url(images/pubg.jpg);
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-box{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.contact-box h1{
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: myFont;
+  animation: Color 2s linear infinite;
+  -webkit-animation: Color 3s ease-in-out infinite;
+}
+
+@keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+
+.location{
+  width: 100%;
+  margin: auto;
+  padding : 80px 0;
+  height: 100%;
+}
+
+.location iframe{
+  width:100%;
+  height: 500px;
+}
+
+.contact-us{
+  width:100%;
+  margin:auto;
+  background-color: transparent;
+}
+
+.contact-col{
+  flex-basis: 50%;
+  padding: 30px 2px;
+
+}
+
+.contact-col h1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: newFont;
+  color: #fff;
+}
+
+.address{
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.contact-col div{
+  display:flex;
+  align-items:center;
+  margin-bottom:100px;
+}
+
+.contact-col div .fa{
+  font-size: 30px;
+  margin-right: 10px;
+  margin-right: 30px;
+  color: #980BBF;
+}
+
+.contact-col div .fa:hover{
+  font-size: 40px;
+  color: #00b8ff;
+  transition: .5s;
+}
+
+
+.contact-col div p{
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+  font-family: pFont;
+  color: #fff;
+}
+
+.contact-col div h5{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-family: pFont;
+  color: #fff;
+}
+
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom:17px;
+  outline: none;
+  border:1px solid #000;
+  background: transparent;
+  color: #fff;
+}
+
+.contact-col input:hover, .contact-col textarea:hover{
+  border:1px solid #980BBF;
+  transition: .5s;
+}
+
+.contact-col input::placeholder, .contact-col textarea::placeholder{
+  text-align: center;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 700px){
+  .contact-us{
+      width: 100%;
+  }
+
+  .contact-box h1{
+      font-size: 40px;
+  }
+  .contact-col{
+      flex-basis: 100%;
+  }
+
+  .contact-col h1{
+      font-size: 20px;
+      text-align: center;
+      padding-top:0px;
+      padding-bottom: 0px;
+  }
+
+  .contact-col div{
+      display: block;
+      margin-bottom: 20px;
+      margin: auto;
+  }
+
+  .contact-col div .fa{
+      font-size: 20px;
+      margin-right: 10px;
+      margin-right: 30px;
+  }
+
+  .contact-col div p{
+      padding: 0;
+      font-size: 14px;
+      text-align: center;
+  }
+
+  .contact-col div h5{
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 5px;
+      text-align: center;
+  }
+  .contact-col input, .contact-col textarea{
+      width: 90%;
+      padding: 10px;
+      margin-bottom:17px;
+      outline: none;
+      border:1px solid #000;
+      background: #f0f0f0;
+  }
+
+  .contact-col input:hover, .contact-col textarea:hover{
+      border:1px solid #980BBF;
+      transition: .5s;
+  }
+
+
+
+
+}
