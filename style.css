@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: poppins;
+
+}
 
 /*--html,body{
     width: 100%;
@@ -14,9 +18,16 @@
     overflow-x: hidden; 
 }--*/
 
+
+
 @font-face {
     font-family:myFont ;
     src: url(new.ttf);
+}
+
+@font-face {
+  font-family:poppins ;
+  src: url(Poppins-Regular.otf);
 }
 
 @font-face {
@@ -496,7 +507,7 @@ nav-close{
     text-align: center;
     color: #fff;
     font-size: 20px;
-    font-family: 'otherFont';
+    font-family: poppins;
     font-weight: 0;
     padding-bottom: 40px;
 }
@@ -688,16 +699,17 @@ nav-close{
 
 .event-col p{
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 0;
   padding-top: 40px;
   padding-left: 10px;
-  font-family: 'pFont';
+  font-family: poppins;
 }
 
 @media screen and (max-width: 768px){
-  .h2{
-    font-size: 30px;
+  h2{
+    font-size: 20px;
+    padding-top: 10px;
   }
   .row{
     flex-direction: column;
@@ -707,19 +719,30 @@ nav-close{
     flex-basis: 100%;
   }
 
+  .event-col h3{
+    font-size: 15px;
+  }
+
   .event-col img{
     width: 100%;
     height: 100%;
-    margin-right: 30px;
     border-radius: 0px;
     transition: 0.5s;
     display:block;
-    margin:auto;
     object-fit: cover;
+  }
+
+  .event-col p{
+    font-family: poppins;
+    font-size: 13px;
   }
 
   .event-col img:hover{
     transform: scale(0.9);
+  }
+
+  .events h2{
+    font-size: 25px;
   }
 }
 /*------about us------*/
@@ -763,17 +786,17 @@ nav-close{
 
 .about-col p{
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 0;
   padding-top: 20px;
   padding-left: 30px;
-  font-family: 'pFont';
+  font-family: poppins;
   margin-left: 10px;
 }
 
 @media screen and (max-width: 768px){
-  .h2{
-    font-size: 30px;
+  .about-us h2{
+    font-size: 25px;
   }
   .row{
     flex-direction: column;
@@ -785,7 +808,8 @@ nav-close{
 
   .about-col p{
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 13px;
+    font-family: poppins;
   }
 
   .about-col img{
@@ -870,12 +894,14 @@ form button:hover{
 
 .col-3 p{
   color: #fff;
+  font-family: poppins;
 }
 
 @media screen and (max-width: 768px){
   .footer{
     flex-direction: column;
     padding: 50px 5%;
+    font-family: poppins;
   }
 
   .col-1{
@@ -1077,6 +1103,7 @@ form button:hover{
   text-align: center;
   color: #fff;
   padding-top: 0 8px;
+  font-family: poppins;
 }
 
 h6{
@@ -1453,7 +1480,7 @@ h6{
   padding: 0;
   font-size: 16px;
   text-align: left;
-  font-family: pFont;
+  font-family: poppins;
   color: #fff;
 }
 
@@ -1461,7 +1488,7 @@ h6{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 5px;
-  font-family: pFont;
+  font-family: poppins;
   color: #fff;
 }
 
@@ -1504,7 +1531,7 @@ h6{
       padding-top:0px;
       padding-bottom: 0px;
   }
-
+  
   .contact-col div{
       display: block;
       margin-bottom: 20px;
@@ -1521,6 +1548,7 @@ h6{
       padding: 0;
       font-size: 14px;
       text-align: center;
+      font-family: poppins;
   }
 
   .contact-col div h5{
@@ -1528,6 +1556,7 @@ h6{
       font-weight: 400;
       margin-bottom: 5px;
       text-align: center;
+      font-family: poppins;
   }
   .contact-col input, .contact-col textarea{
       width: 90%;
